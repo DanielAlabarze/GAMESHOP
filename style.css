@@ -1,0 +1,304 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#game {
+  display: flex;
+  font-weight: 700;
+  color: #f3f3f3;
+  font-size: 1.56rem;
+  line-height: 29.3px;
+  padding: 0 0 0 10px;
+}
+
+#shop {
+  display: flex;
+  font-weight: 400;
+  color: #d01418;
+  font-size: 1.56rem;
+  line-height: 29.3px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+ul svg {
+  color: #d01418;
+}
+
+header {
+  width: 100%;
+}
+
+.contenedorHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  padding: 0 2rem;
+  height: 7rem;
+}
+
+.slide {
+  display: flex;
+  background-image: url("img/img\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 32rem;
+  width: 100%;
+}
+
+#descuento {
+  color: #d01418;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 0 10px 0 0;
+}
+p {
+  color: #f3f3f3;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 0 0 50px 0;
+}
+
+button {
+  width: 220px;
+  height: 61px;
+  color: #f3f3f3;
+  background-color: #d01418;
+  border-radius: 5px;
+  font-size: 1.56rem;
+  font-weight: 500;
+}
+
+a button:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.titulo {
+  width: 100%;
+  color: #000000;
+  background-color: #c4c4c4;
+  font-weight: 400;
+  font-size: 1.88rem;
+  text-align: center;
+  padding: 50px 0;
+}
+.precio {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.cuotas {
+  color: #000000;
+  font-weight: 400;
+  font-size: 0.81rem;
+}
+.envio {
+  color: #619d00;
+  font-weight: 400;
+  font-size: 0.63rem;
+}
+
+.ofertas {
+  display: flex;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.ofertas:hover {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+}
+
+.productos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c4c4c4;
+  padding: 1rem 3rem;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.banner a {
+  padding: 2rem;
+}
+
+.banner a:hover {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+span {
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 1.56rem;
+}
+
+.productosEstrella {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #c4c4c4;
+  padding: 2rem;
+}
+
+.estrella {
+  display: flex;
+  width: 100%;
+}
+
+#sillas {
+  display: flex;
+  background-image: url("img/banner\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 22.5rem;
+  height: 8.43rem;
+  padding: 1rem;
+}
+
+#computadoras {
+  display: flex;
+  background-image: url("img/banner\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 22.5rem;
+  height: 8.43rem;
+  padding: 1rem;
+}
+
+.sociales {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #f3f3f3;
+  background-color: #222222;
+  font-weight: 400;
+  font-size: 1.56rem;
+  line-height: 29.3px;
+  width: 100%;
+  height: 13.5rem;
+  padding: 0 5rem;
+}
+
+.twiter {
+  color: #14aed0;
+}
+.facebook {
+  color: #1476d0;
+}
+.instagram {
+  color: #ce0cff;
+}
+.iconos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#derechos {
+  display: flex;
+  color: #000000;
+  background-color: #c4c4c4;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 0.63rem;
+  line-height: 11.72px;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 600px) {
+  .redes {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorHeader {
+    justify-content: center;
+  }
+
+  .productos {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #sillas,
+  #computadoras {
+    width: 18rem;
+    height: 6.75rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .contenedorHeader {
+    height: 12rem;
+    padding: 1rem;
+  }
+
+  .spanRedesSociales {
+    font-size: 1.2rem;
+  }
+}
